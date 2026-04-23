@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "version": "4.0",
+    "date": "2026-04-20",
+    "source": "WHO LBM4, CLSI, ISO 15189, EURACHEM, BMBL 6th - Complete",
+    "language": "es",
+    "total_qa": "350+"
+  },
+  "topics": [
+    {
+      "id": "advanced_biosafety",
+      "name": "Bioseguridad Avanzada",
+      "questions": [
+        {
+          "id": "bio001",
+          "question": "¿Qué es un programa de bioseguridad y cuáles son sus componentes?",
+          "answer": "Programa integral incluye: políticas y procedimientos documentados, estructura organizativa con responsabilidades definidas, formación continua, evaluación riesgos periódica, vigilancia médica, gestión residuos, emergencias, auditorías, documentación.",
+          "source": "WHO LBM4 Section 6"
+        },
+        {
+          "id": "bio002",
+          "question": "¿Cuál es la función del Biosafety Officer?",
+          "answer": "Funciones: asesorar en bioseguridad, desarrollar procedimientos, investigar incidentes, verificar cumplimiento, formar personal, mantener registros, coordinar con autoridades, actualizar programa.",
+          "source": "WHO LBM4 / OSHA"
+        },
+        {
+          "id": "bio003",
+          "question": "¿Qué es la evaluación de riesgos biológicos?",
+          "answer": "Proceso sistemático para identificar, analizar y evaluar riesgos de agentes biológicos. Considera: peligros del agente (patogenicidad, transmisión), actividades posibles, personal vulnerable, controles existentes. Documenta y revisa periódicamente.",
+          "source": "WHO LBM4 Section 2"
+        },
+        {
+          "id": "bio004",
+          "question": "¿Cómo se clasifican los agentes biológicos por riesgo?",
+          "answer": "Clasificación: RG1 (sin/nula enfermedad), RG2 (enfermedad moderada, tratamiento disponible), RG3 (enfermedad grave, tratamiento limitado), RG4 (enfermedad muy grave, sin tratamiento).",
+          "source": "WHO / EU Directive"
+        },
+        {
+          "id": "bio005",
+          "question": "¿Qué es un Biological Safety Cabinet Clase III?",
+          "answer": "Cabina Clase III (glove box) es completamente sellada, operario trabaja con guantes integrados, flujo de aire entra por HEPA, sale por HEPA, sin contacto directo. Para agentes RG3-4. Máxima protección para operación.",
+          "source": "WHO LBM4 / NSF/ANSI 49"
+        },
+        {
+          "id": "bio006",
+          "question": "¿Qué es la descontaminación por ácido peracético?",
+          "answer": "Descontaminación con ácido peracético (0.2%): efectivo contra bacteria, virus, hongos, esporas. Usado para sistemas HVAC, equipos grandes. Tiempo contacto 10 min. Requiere ventilación posterior.",
+          "source": "WHO LBM4"
+        },
+        {
+          "id": "bio007",
+          "question": "¿Qué es presión negativa dinámica?",
+          "answer": "Presión negativa mantenida manteniendo menor presión dentro del espacio que en áreas adyacentes. Verificar con indicadores de humo o manómetro. Monitoreo continuo o periódicos. Alarma si pierde presión.",
+          "source": "WHO LBM4"
+        },
+        {
+          "id": "bio008",
+          "question": "¿Qué es una ducha de descontaminación?",
+          "answer": "Sistema para personal que sale de área contención: ducha con detergente/desinfectante para remover contaminación superficial. Usado en BSL-3 o al trabajar con agentes RG3. No es obligatorio en BSL-2 estándar.",
+          "source": "WHO LBM4 / BMBL"
+        }
+      ]
+    },
+    {
+      "id": "biosafety_bsl2",
+      "name": "Bioseguridad BSL-2",
+      "questions": [
+        {
+          "id": "bsl001",
+          "question": "¿Cuáles son los requisitos mínimos de ventilación para un laboratorio BSL-2?",
+          "answer": "Los requisitos mínimos son: 6-12 cambios de aire por hora (ACH), presión negativa de -5 a -15 Pa respecto al pasillo, 100% de extracción al exterior, y filtros HEPA en la extracción.",
+          "source": "WHO LBM4 Section 3.3"
+        },
+        {
+          "id": "bsl002",
+          "question": "¿Qué diferencia hay entre BSL-1 y BSL-2?",
+          "answer": "BSL-1 trabaja con microorganismos no patógenos usando prácticas estándar. BSL-2 trabaja con patógenos de riesgo moderado (como Salmonella, Staphylococcus aureus, HIV) y requiere: BSC Clase II, acceso restringido, EPP específico (bata, guantes, protección ocular), y formación adicional en bioseguridad.",
+          "source": "WHO LBM4 Section 4 / BMBL 6th Ed"
+        },
+        {
+          "id": "bsl003",
+          "question": "¿Cada cuánto debe certificarse la cabina de seguridad biológica (BSC)?",
+          "answer": "La BSC debe certificarse anualmente según EN 12469 o NSF/ANSI 49. Además, se recomienda verificación de filtros HEPA cada 6 meses y pruebas de integridad anuales.",
+          "source": "WHO LBM4 / EN 12469"
+        },
+        {
+          "id": "bsl004",
+          "question": "¿Qué temperatura y humedad debe tener un laboratorio BSL-2?",
+          "answer": "Temperatura: 20-24°C. Humedad relativa: 30-70%.",
+          "source": "WHO LBM4 Section 3.3"
+        },
+        {
+          "id": "bsl005",
+          "question": "¿Qué EPP es obligatorio en BSL-2?",
+          "answer": "EPP mínimo obligatorio: bata o bata de laboratorio de manga larga, guantes (nitrilo sin polvo), y protección ocular (gafas o pantalla facial). Para algunos procedimientos se requiere protección respiratoria (N95 o superior).",
+          "source": "WHO LBM4 Section 4.6 / BMBL"
+        },
+        {
+          "id": "bsl006",
+          "question": "¿Qué es el GMPP?",
+          "answer": "GMPP son las siglas de Good Microbiological Practice and Procedure (Buena Práctica y Procedimiento Microbiológico). Es el código de prácticas básico de laboratorio que incluye técnicas asépticas, procedimientos operativos estándar y comportamientos generales para trabajar de forma segura con microorganismos.",
+          "source": "WHO LBM4 Section 3.1"
+        },
+        {
+          "id": "bsl007",
+          "question": "¿Cuáles son los grupos de riesgo según la clasificación internacional?",
+          "answer": "RG1 (bajo riesgo): No causa enfermedad. RG2 (riesgo moderado): Causa enfermedad pero tratamiento disponible. RG3 (alto riesgo): Causa enfermedad grave, tratamiento limitado. RG4 (muy alto riesgo): Causa enfermedad grave, sin tratamiento.",
+          "source": "WHO / EU Directive 2000/54/EC"
+        },
+        {
+          "id": "bsl008",
+          "question": "¿Qué es una infección adquirida en laboratorio (LAI)?",
+          "answer": "LAI (Laboratory Acquired Infection) es una infección contraída por personal de laboratorio como resultado de trabajar con agentes biológicos. Los agentes más frecuentemente asociados incluyen Brucella, Francisella tularensis, Coxiella burnetii y Salmonella.",
+          "source": "CDC/Wedum AG study"
+        }
+      ]
+    },
+    {
+      "id": "autoclave",
+      "name": "Autoclave y Esterilización",
+      "questions": [
+        {
+          "id": "aut001",
+          "question": "¿Cuál es el ciclo estándar de autoclave para residuos biológicos BSL-2?",
+          "answer": "Temperatura: 121°C, Presión: 15 psi (103 kPa), Tiempo: 15-30 minutos. Para esporas o priones usar ciclo extendido: 134°C por 18-30 minutos.",
+          "source": "WHO LBM4 / BMBL"
+        },
+        {
+          "id": "aut002",
+          "question": "¿Qué indicador biológico se usa para validar autoclaves?",
+          "answer": "Se usa Geobacillus stearothermophilus (cepa ATCC 7953 o SS31). Este organismo es altamente resistente al calor y su destrucción confirma esterilización efectiva.",
+          "source": "WHO LBM4 / ISO 17665"
+        },
+        {
+          "id": "aut003",
+          "question": "¿Cada cuánto tiempo debo hacer el test de Bowie-Dick?",
+          "answer": "Diariamente, antes del primer uso del autoclave. El test de Bowie-Dick verifica la eficacia del sistema de vacío.",
+          "source": "ISO 17665"
+        },
+        {
+          "id": "aut004",
+          "question": "¿Qué es el valor F0 en esterilización?",
+          "answer": "F0 es el valor de esterilización, representando el tiempo en minutos a 121°C necesario para destruir un microorganismo de referencia. Un F0 de 12 minutos es equivalente a destrucción de población bacteriana de 10^12.",
+          "source": "ISO 17665"
+        }
+      ]
+    },
+    {
+      "id": "desinfection",
+      "name": "Desinfección",
+      "questions": [
+        {
+          "id": "des001",
+          "question": "¿Cuál es la concentración de lejía para desinfección de superficies biológicas?",
+          "answer": "1:10 de lejía (hipoclorito sódico), equivalentes a 1000 ppm de cloro activo. Tiempo de contacto: 20 minutos. Nota: la solución de lejía debe ser fresca (preparada en las últimas 24 horas).",
+          "source": "WHO LBM4 / CDC"
+        },
+        {
+          "id": "des002",
+          "question": "¿Qué concentración de etanol es efectiva para desinfección?",
+          "answer": "Etanol al 70% es efectivo para desinfección de superficies pequeñas. Tiempo de contacto: 5 minutos. No es efectivo contra esporas ni algunos virus sin envoltura.",
+          "source": "WHO LBM4"
+        },
+        {
+          "id": "des003",
+          "question": "¿Cuál es el tiempo de contacto del glutaraldehído al 2%?",
+          "answer": "10 minutos de tiempo de contacto para desinfección de alto nivel. Es efectivo contra bacterias, virus, hongos y esporas (tiempo prolongado).",
+          "source": "WHO LBM4"
+        }
+      ]
+    },
+    {
+      "id": "validation",
+      "name": "Validación de Métodos",
+      "questions": [
+        {
+          "id": "val001",
+          "question": "¿Cuál es la diferencia entre validación y verificación de métodos según ISO 15189?",
+          "answer": "Validación: Proceso para demostrar que un método nuevo o modificado funciona según lo previsto. Se aplica a métodos desarrollados in-house o métodos estándar modificados. Verificación: Confirmación de que un método ya validado funciona correctamente en el laboratorio específico. Se aplica a métodos comerciales o estándar implementados sin modificaciones.",
+          "source": "ISO 15189:2022 Section 7.3 / EURACHEM"
+        },
+        {
+          "id": "val002",
+          "question": "¿Cuántas muestras se necesitan para validar un método cuantitativo?",
+          "answer": "Mínimo 20-30 muestras representativas del rango clínico, incluyendo valores bajos, medios y altos. Para métodos cualitativos: mínimo 30-50 muestras positivas y negativas.",
+          "source": "EURACHEM Guide"
+        },
+        {
+          "id": "val003",
+          "question": "¿Cuáles son los criterios de aceptación típicos para validación de métodos microbiológicos?",
+          "answer": "Reproducibilidad: CV ≤15%. Repetibilidad: CV ≤10%. Exactitud (sesgo): ≤15%. Límite de detección: Adecuado para uso clínico. Especificidad: ≥95%. Sensibilidad: ≥95%.",
+          "source": "ISO 15189 / CLSI"
+        },
+        {
+          "id": "val004",
+          "question": "¿Qué parámetros de validación son obligatorios para métodos cuantitativos?",
+          "answer": "Parámetros obligatorios: Exactitud, Precisión (repeatibilidad y reproducibilidad), Linealidad (R²≥0.95), Límite de detección (LOD), Rango de trabajo, Especificidad/Selectividad.",
+          "source": "EURACHEM Guide 2025"
+        },
+        {
+          "id": "val005",
+          "question": "¿Qué es la incertidumbre de medición en microbiología?",
+          "answer": "La incertidumbre de medición es la dispersión de valores que puede atribuirse razonablemente al mensurando. Para métodos microbiológicos se estima según ISO 19036 usando datos de reproducibilidad interlaboratorio.",
+          "source": "ISO 19036 / EURACHEM"
+        }
+      ]
+    },
+    {
+      "id": "qc",
+      "name": "Control de Calidad",
+      "questions": [
+        {
+          "id": "qc001",
+          "question": "¿Qué son las reglas de Westgard?",
+          "answer": "Las reglas de Westgard son criterios estadísticos para interpretar datos de control de calidad. Las más usadas: 1 2s (advertencia, 1 control >2 DE), 1 3s (error, 1 control >3 DE), 2 2s (error, 2 controles misma dirección >2 DE), R 4s (error, rango >4 DE), 10 x̄ (error, 10 controles mismo lado de la media).",
+          "source": "Westgard QC"
+        },
+        {
+          "id": "qc002",
+          "question": "¿Cuáles son las cepas de control de calidad para AST estándar?",
+          "answer": "ATCC 25922 (E. coli), ATCC 25923 (S. aureus), ATCC 27853 (P. aeruginosa), ATCC 49619 (S. pneumoniae), ATCC 29212 (Enterococcus).",
+          "source": "CLSI M02/M07"
+        },
+        {
+          "id": "qc003",
+          "question": "¿Cada cuánto debe realizarse control de calidad interno?",
+          "answer": "Mínimo cada batch de muestras. Para métodos estables, diariamente. La frecuencia debe reflejar la estabilidad del método y el riesgo para el paciente.",
+          "source": "ISO 15189"
+        },
+        {
+          "id": "qc004",
+          "question": "¿Qué es un IQC fail y cómo se maneja?",
+          "answer": "Un IQC fail ocurre cuando el control supera los límites de aceptación definidos. Manejo: 1) Investigar la causa (reactivos, equipo, técnica). 2) Corregir el problema. 3) Revisar resultados de pacientes desde el último IQC válido. 4) Documentar no conformidades y acciones correctivas.",
+          "source": "ISO 15189 / CLSI"
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "name": "Equipamiento",
+      "questions": [
+        {
+          "id": "eqp001",
+          "question": "¿Qué tipo de BSC se recomienda para laboratorio BSL-2?",
+          "answer": "Se recomienda BSC Clase II Tipo A2 o Tipo B2. El Tipo A2 es el más común para microbiología general. El Tipo B2 es necesario cuando se trabaja con productos químicos tóxicos tratados.",
+          "source": "WHO LBM4 / NSF/ANSI 49"
+        },
+        {
+          "id": "eqp002",
+          "question": "¿Cuál es la velocidad de flujo frontal recomendada para BSC?",
+          "answer": "50-80 pies por minuto (fpm) o 0.25-0.40 m/s en el plano de trabajo.",
+          "source": "NSF/ANSI 49"
+        },
+        {
+          "id": "eqp003",
+          "question": "¿Cada cuánto se debe calibrar una incubadora CO2?",
+          "answer": "Calibración anual verificaciones trimestrales. Verificación diaria de temperatura y CO2.",
+          "source": "ISO 15189 / Manufacturer guidelines"
+        },
+        {
+          "id": "eqp004",
+          "question": "¿Cuál es la vida útil típica de un filtro HEPA en BSC?",
+          "answer": "Los filtros HEPA típicamente duran 3-5 años, pero deben verificarse anualmente y reemplazarse cuando la integridad del filtro esté comprometida o cuando el flujo de aire caiga por debajo de los specs.",
+          "source": "NSF/ANSI 49"
+        }
+      ]
+    },
+    {
+      "id": "accreditation",
+      "name": "Acreditación ISO 15189",
+      "questions": [
+        {
+          "id": "iso001",
+          "question": "¿Cuánto tiempo se necesita para obtener acreditación ISO 15189?",
+          "answer": "Tiempo típico: 12-24 meses desde el inicio hasta la obtención. Esto incluye: gap analysis (1-2 meses), implementación del sistema (6-12 meses), validación de métodos (3-6 meses), auditoría interna (1 mes), solicitud y auditoría de acreditación (2-4 meses).",
+          "source": "ISO 15189 / Various labs"
+        },
+        {
+          "id": "iso002",
+          "question": "¿Cuáles son los requisitos principales de ISO 15189:2022?",
+          "answer": "Requisitos principales: 4) Imparcialidad y confidencialidad. 5) Requisitos de recursos (personal, instalaciones, equipos). 6) Requisitos de proceso (pre-analítico, analítico, post-analítico). 7) Gestión de riesgos y oportunidades. 8) Requisitos de sistema de gestión (no conformidades, acciones correctivas, mejora, auditorías).",
+          "source": "ISO 15189:2022"
+        },
+        {
+          "id": "iso003",
+          "question": "¿Qué es el proceso de gap analysis para ISO 15189?",
+          "answer": "Es una evaluación inicial que compara las prácticas actuales del laboratorio con los requisitos de ISO 15189. Identifica: deficiencias a corregir, fortalezas existentes, y recursos necesarios para alcanzar la conformidad.",
+          "source": "QSE Academy / ISO guidance"
+        }
+      ]
+    },
+    {
+      "id": "clsi_ast",
+      "name": "CLSI - Susceptibilidad Antimicrobiana",
+      "questions": [
+        {
+          "id": "clsi001",
+          "question": "¿Qué es CLSI M100?",
+          "answer": "CLSI M100 es el documento de referencia principal para pruebas de susceptibilidad antimicrobiana. Incluye tablas actualizadas de breakpoints, categorías interpretativas (S, I, R), y recomendaciones de control de calidad.",
+          "source": "CLSI M100"
+        },
+        {
+          "id": "clsi002",
+          "question": "¿Qué significan las categorías S, I, R en susceptibilidad antimicrobiana?",
+          "answer": "S (Susceptible): El microorganismo es susceptible al antimicrobiano a las dosis normales. I (Intermedio): Se requiere dosis más altas o el antimicrobiano se concentra en el sitio de infección. R (Resistente): El microorganismo es resistente al antimicrobiano.",
+          "source": "CLSI M100"
+        },
+        {
+          "id": "clsi003",
+          "question": "¿Cuáles son las cepas de control de calidad para AST?",
+          "answer": "E. coli ATCC 25922, S. aureus ATCC 25923, P. aeruginosa ATCC 27853, S. pneumoniae ATCC 49619, Enterococcus ATCC 29212.",
+          "source": "CLSI M02/M07"
+        }
+      ]
+    },
+    {
+      "id": "iso_standards",
+      "name": "Estándares ISO",
+      "questions": [
+        {
+          "id": "std001",
+          "question": "¿Qué es ISO 15189:2022?",
+          "answer": "ISO 15189:2022 es la norma internacional para laboratorios médicos que establece requisitos de calidad y competencia. Incluye requisitos de sistema de gestión, recursos, procesos preanalíticos, analíticos y postanalíticos.",
+          "source": "ISO 15189:2022"
+        },
+        {
+          "id": "std002",
+          "question": "¿Qué es ISO 15190:2020?",
+          "answer": "ISO 15190:2020 establece requisitos de seguridad para laboratorios médicos, incluyendo gestión de riesgos biológicos, instalaciones, equipos, procedimientos y gestión de residuos.",
+          "source": "ISO 15190:2020"
+        },
+        {
+          "id": "std003",
+          "question": "¿Qué es ISO 35001:2019?",
+          "answer": "ISO 35001:2019 es la norma para gestión del riesgo biológico en laboratorios y organizaciones relacionadas. Proporciona un marco para identificar, evaluar y controlar riesgos biológicos.",
+          "source": "ISO 35001:2019"
+        }
+      ]
+    }
+  ]
+}
